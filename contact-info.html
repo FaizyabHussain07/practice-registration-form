@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="reg-form">
+            <div class="main-head">
+                <h2>Registration Form</h2>
+            </div>
+            <div class="sub-head">
+                <h3>Persnoal Info</h3>
+                <div class="container">
+                    <div class="dob">
+                        <label for="dob">Date of birth</label>
+                        <input type="date" name="dob" class="dob" required>
+                    </div>
+                    <div class="City-state">
+                        <label for="City-state">City / State</label>
+                        <input type="text" name="City-state" class="City-state" placeholder="Enter city name" required>
+                    </div>
+                </div>
+                <div class="street-container">
+                    <label for="street-add">Street address</label>
+                    <input type="text" name="street-add" class="street-add" placeholder="Enter street address" required>
+                </div>
+                <div class="country-container">
+                    <label for="country">Country</label>
+                    <select name="country" required>
+                        <option value="">Pakistan</option>
+                        <option value="">India</option>
+                        <option value="">Dubai</option>
+                        <option value="">Iran</option>
+                    </select>
+                </div>
+            </div>
+            <div class="next-btn-link">
+                <div><a href="index.html">Go back</a></div>
+                <div><a href="login-info.html">Next</a></div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
