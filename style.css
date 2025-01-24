@@ -164,3 +164,34 @@ select{
     color: wheat;
     font-size: 14px;
 }
+  
+  .message-container label {
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+  
+  .message-container textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .message-container textarea {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Subject input[type="text"] {
+    width: 120%;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  
